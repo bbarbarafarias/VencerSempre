@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="app_name">Colégio Vencer Sempre</string>
+    <string name="mail">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="forgot_password">Esqueceu a senha?</string>
+    <string name="sign_in">Entrar</string>
+    <string name="sign_up">Cadastrar</string>
+    <string name="home">Início</string>
+    <string name="reservations">Reservas</string>
+    <string name="help">Ajuda</string>
+    <string name="authentication">Autenticação</string>
+    <string name="equipments">Equipamentos</string>
+    <string name="add_reservation">Reservar</string>
+    <string name="exit">Sair</string>
+    <string name="confirm_sign_out">Tem certeza que deseja sair?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="no_reservations">Não há reservas.</string>
+    <string name="course">Curso</string>
+    <string name="period">Período</string>
+    <string name="date">Data</string>
+    <string name="time">Horário</string>
+    <string name="select_time">Selecionar horário</string>
+    <string name="select_date">Selecionar data</string>
+    <string name="equipment">Equipamento</string>
+    <string name="save">Salvar</string>
+    <string name="back">Voltar</string>
+    <string name="first_access_title">Primeiro Acesso</string>
+    <string name="first_access_description">Insira seu e-mail e senha cadastrados para entrar no sistema. Caso não tenha uma conta, basta criar.</string>
+    <string name="system_sign_out_description">Na tela inicial, ao clicar em sair, você será desconectado do aplicativo.</string>
+    <string name="system_sign_out_title">Sair do Sistema</string>
+    <string name="reservations_title">Reservas</string>
+    <string name="reservations_description">Você pode reservar qualquer equipamento na tela de reservas. Para ver os equipamentos disponíveis, basta ir a tela de equipamentos.</string>
+    <string name="welcome">Seja bem-vindo(a) ao sistema de reservas de equipamentos do Colégio Vencer Sempre!</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="br.unip.yasaw.presenter.fragments.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <action
+        android:id="@+id/action_global_homeFragment"
+        app:destination="@id/homeFragment" />
+
+    <fragment
+        android:id="@+id/equipmentsFragment"
+        android:name="br.unip.yasaw.presenter.fragments.equipments.EquipmentsFragment"
+        android:label="fragment_equipments"
+        tools:layout="@layout/fragment_equipments" />
+
+    <action
+        android:id="@+id/action_global_equipmentsFragment"
+        app:destination="@id/equipmentsFragment" />
+
+    <fragment
+        android:id="@+id/reservationsFragment"
+        android:name="br.unip.yasaw.presenter.fragments.reservations.ReservationsFragment"
+        android:label="fragment_reservations"
+        tools:layout="@layout/fragment_reservations">
+
+        <action
+            android:id="@+id/action_reservationsFragment_to_setReservationFragment"
+            app:destination="@id/setReservationFragment" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_reservationsFragment"
+        app:destination="@id/reservationsFragment" />
+
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="br.unip.yasaw.presenter.fragments.help.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+
+    <action
+        android:id="@+id/action_global_helpFragment"
+        app:destination="@id/helpFragment" />
+
+    <fragment
+        android:id="@+id/setReservationFragment"
+        android:name="br.unip.yasaw.presenter.fragments.reservations.set.SetReservationFragment"
+        android:label="fragment_set_reservation"
+        tools:layout="@layout/fragment_set_reservation">
+
+        <action
+            android:id="@+id/action_setReservationFragment_to_reservationsFragment"
+            app:destination="@id/reservationsFragment" />
+    </fragment>
+</navigation>
